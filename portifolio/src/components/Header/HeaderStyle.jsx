@@ -9,11 +9,18 @@ export const Container = styled.div`
     padding: 0;
     display: flex;
     justify-content: flex-end;
+
+    button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    color: #b58080;
+    }
 `
 
 export const Div = styled.div`
     display: flex;
     margin-right: 2vw;
+    align-items: center;
 `
 
 export const Button = styled.button`
@@ -25,9 +32,5 @@ export const Button = styled.button`
     cursor: pointer;
     padding-left: 2vw;
 
-    button:hover {
-    transform: scale(1.1);
-    transition-duration: 0.7s;
-    background-color: #3a5e7e;
-    }
+    
 `

@@ -1,9 +1,13 @@
 import React from 'react'
-import { Container } from './ProjetosStyles'
+import { Container, Title, Image } from './ProjetosStyles'
+import logo from '../../assets/logo.png'
 
 const Projetos = () => {
   return (
-    <Container></Container>
+    <Container>
+      <Title id="Projetos">Projetos</Title>
+      <Image src={logo}/>
+    </Container>
   )
 }
 
