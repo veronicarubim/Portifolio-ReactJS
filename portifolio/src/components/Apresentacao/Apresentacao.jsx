@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Div, Image, Text, Title, TextDiv } from './ApresentacaoStyle'
+import { Container, Div, Image, Text, Title, TextDiv, Stars } from './ApresentacaoStyle'
 import foto from "../../assets/foto.png"
 
 const Apresentacao = () => {
@@ -10,10 +10,8 @@ const Apresentacao = () => {
             <TextDiv>
                 <Title>Quem sou eu?</Title>
                 <Text> Teste teste test </Text>
-            </TextDiv>
-            
-        </Div>
-        
+            </TextDiv> 
+        </Div>    
     </Container>
 )}
 
