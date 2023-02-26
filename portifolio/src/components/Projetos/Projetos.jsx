@@ -95,7 +95,7 @@ const Projetos = () => {
                 Construção de uma API RESTful vinculada a banco de dados relacional SQLite. A aplicação conta com arquitetura limpa e em camadas e Programação Orientada a Objetos.
                 Feita com Typescript, NodeJS, Knex, Express, SQLite, Geração dde UUID e roteamento. Documentação do Postman no Github.  
               </Text>
-              <Link href="https://github.com/veronicarubim/labecommerce-backend" target={'_blank'} rel="noreferrer">Github do Projeto</Link>
+              <Link href="https://github.com/veronicarubim/Projeto-Labook" target={'_blank'} rel="noreferrer">Github do Projeto</Link>
               <Text>Ferramentas:</Text>
               <div>
                     <img src={ts} alt="img"/>
