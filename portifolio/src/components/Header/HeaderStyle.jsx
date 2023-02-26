@@ -3,12 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
     position: fixed;
     background-color: #547B9F;
-    height: 90px;
+    height: 4rem;
     width: 100vw;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 
     button:hover {
     transform: scale(1.1);
@@ -31,6 +32,10 @@ export const Button = styled.button`
     border: none;
     cursor: pointer;
     padding-left: 2vw;
+`
 
-    
+export const Title = styled.h1`
+    color: #DFB0B0;
+    margin-left: 1.5%;
+    font-size: 1.5rem;
 `

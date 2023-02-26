@@ -1,12 +1,11 @@
 import React from 'react'
-import { Button, Container, Div } from './HeaderStyle';
+import { Button, Container, Div, Title } from './HeaderStyle';
 import { Link } from 'react-scroll';
-import { Title } from '../Apresentacao/ApresentacaoStyle';
 
 const Header = () => {
   return (
     <Container>
-      <Title>Veronica Rubim</Title>
+      <Title>Veronica Rubim - Desenvolvedora </Title>
       <Div>
         <Link to="Home" smooth={true} duration={500}>
           <Button>Home</Button>
