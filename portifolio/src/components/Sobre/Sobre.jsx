@@ -37,7 +37,7 @@ const Sobre = () => {
           <Card>
             <Subtitle2>Cientista CNPQ</Subtitle2>
             <Text>Mar/2020 - Abr/2022</Text>
-            <Text>Realizava pesquisa científica e estudei o desenvolvimento do nectário floral do cacto epífito flor de maio.</Text>
+            <Text>Realizava pesquisa científica e estudei o desenvolvimento do nectário floral do cacto epífito da flor de maio.</Text>
           </Card> 
         </DivAcad>
         

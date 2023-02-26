@@ -13,8 +13,8 @@ export const Container = styled.div`
 export const Section = styled.section`
     display: flex;
     flex-direction: column;
-   /*  align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
 
 `
@@ -35,8 +35,11 @@ export const Title = styled.h1`
     margin-top: 5vh;
     color: white;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 3rem;
 `
-export const Image1 = styled.img`
-    width: 17vw;
+export const Subtitle = styled.h2`
+    margin-top: 10vh;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
 `

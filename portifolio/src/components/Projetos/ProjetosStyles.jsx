@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: #DFB0B0 ;
+    background-color: #DFB0B0;
 
     img:hover {
     transform: scale(1.1);
@@ -21,10 +21,11 @@ export const Image = styled.img`
 `
 export const Subtitle = styled.div`
     color: #9c6b6b;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    padding-top: 0.8rem;
+    padding-top: 5rem;
     padding-bottom: 0.8rem;
+    text-align: center;
 `
 export const Subtitle2 = styled.div`
     color: #9c6b6b;
@@ -33,9 +34,9 @@ export const Subtitle2 = styled.div`
     padding-bottom: 0.5rem;
 `
 export const Text = styled.p`
-    color: #9c6b6b;
+    color: black;
     font-size: 1rem;
-    padding: 0.5rem;
+    text-align: justify;
 `
 export const Div = styled.div`
     display: flex;
