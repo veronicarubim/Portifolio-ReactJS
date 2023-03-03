@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background-color:#99C3DE;
-    height: 40rem;
+    height: max-content;
+
 `
 export const Title = styled.h1`
     margin-left: 4vw;
@@ -29,8 +30,10 @@ export const Text = styled.p`
 export const Div = styled.div`
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 1rem;
     margin-top: 2rem;
+    padding-bottom: 3rem;
 `
 
 export const Card = styled.div`
@@ -43,5 +46,6 @@ export const Card = styled.div`
 export const DivAcad = styled.div`
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 1rem;
 `

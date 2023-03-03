@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background-color: #DFB0B0;
+    height: max-content;
 
     img:hover {
     transform: scale(1.1);
@@ -16,7 +17,7 @@ export const Title = styled.h1`
     font-size: 3rem;
 `
 export const Image = styled.img`
-    width: 17vw;
+    width: 20rem;
     border-radius: 50%;
 `
 export const Subtitle = styled.div`
@@ -41,21 +42,25 @@ export const Text = styled.p`
 export const Div = styled.div`
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
 `
 export const DivText = styled.div`
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 24rem;
-
 `
 export const Projeto = styled.div`
     display: flex;
     gap: 2rem;
     align-items: flex-start;
+    flex-wrap: wrap;
 `
 export const Stack = styled.div`
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 2rem;
 `
 export const Link = styled.a`

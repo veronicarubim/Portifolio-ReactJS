@@ -37,5 +37,5 @@ export const Button = styled.button`
 export const Title = styled.h1`
     color: #DFB0B0;
     margin-left: 1.5%;
-    font-size: 1.5rem;
+    font-size: 1rem;
 `
