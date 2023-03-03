@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background-color: #547B9F;
-    height: 50vh;
+    height: max-content;
     
     img:hover {
     transform: scale(1.1);
@@ -13,6 +13,7 @@ export const Container = styled.div`
 export const Section = styled.section`
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -21,6 +22,8 @@ export const Section = styled.section`
 export const Div = styled.div`
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
 /*     justify-content: center;
     align-items: center; */
 `
@@ -32,7 +35,6 @@ export const Image = styled.img`
 `
 export const Title = styled.h1`
     margin-left: 4vw;
-    margin-top: 5vh;
     color: white;
     font-weight: bold;
     font-size: 3rem;

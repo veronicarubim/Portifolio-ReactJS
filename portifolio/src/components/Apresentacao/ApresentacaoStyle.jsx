@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
     background-color: #DFB0B0;
     /* background: linear-gradient(0deg, rgba(145,100,100,1) 0%, rgba(223,176,176,1) 44%, rgba(255,208,208,1) 83%); */
-    height: 110vh;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    height: max-content;
 
     /* img:hover {
     transform: scale(1.02);
@@ -18,7 +19,9 @@ export const Div = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+    flex-wrap: wrap;
 `
 
 export const Image = styled.img`
@@ -45,6 +48,7 @@ export const Title = styled.h1`
 export const TextDiv = styled.div`
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 1.8vh;
     width: 24rem;
 `
